@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ☕ Urban Coffee Cafe - Premium Landing Page
 
-## Getting Started
+Urban Coffee adalah sebuah platform landing page modern yang dirancang khusus untuk bisnis cafe/coffee shop kelas atas. Dibangun menggunakan teknologi terbaru untuk menghasilkan performa tinggi, desain premium, dan SEO yang sangat kuat.
 
-First, run the development server:
+## ✨ Fitur Utama
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Premium UI/UX**: Desain modern dengan estetika *luxury*, animasi halus menggunakan Framer Motion, dan transisi antar section yang natural.
+- **Conversion-Oriented**: Strategi Call-to-Action (CTA) yang dioptimalkan untuk meningkatkan pemesanan melalui integrasi WhatsApp.
+- **Local SEO Optimized**: Struktur heading, metadata, sitemap, dan Google Maps yang sudah terintegrasi untuk meningkatkan peringkat di pencarian lokal.
+- **Mobile First & Responsive**: Tampilan yang sempurna di berbagai ukuran layar (Mobile, Tablet, Desktop).
+- **Fast Performance**: Optimasi gambar menggunakan `next/image` dan *lazy loading* untuk kecepatan maksimal.
+
+## 🚀 Teknologi yang Digunakan
+
+- **Framework**: [Next.js 14](https://nextjs.org/) (App Router)
+- **Bahasa**: [TypeScript](https://www.typescriptlang.org/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Animasi**: [Framer Motion](https://www.framer.com/motion/)
+- **Ikon**: Heroicons & Font Awesome (SVG)
+
+## 🛠️ Instalasi
+
+Pastikan Anda sudah menginstal [Node.js](https://nodejs.org/) (versi 18 atau terbaru) di sistem Anda.
+
+1. **Clone Repository**
+   ```bash
+   git clone https://github.com/username/urban-coffee.git
+   cd urban-coffee
+   ```
+
+2. **Instal Dependensi**
+   ```bash
+   npm install
+   ```
+
+3. **Menjalankan Mode Pengembangan**
+   ```bash
+   npm run dev
+   ```
+   Aplikasi akan berjalan di `http://localhost:3000`.
+
+4. **Build untuk Produksi**
+   ```bash
+   npm run build
+   npm start
+   ```
+
+## 📁 Struktur Proyek
+
+```text
+├── app/                  # Route Next.js, layout, dan metadata
+├── components/           # Komponen UI reusable (Button, Navbar, dll)
+├── sections/             # Section utama halaman (Hero, About, Menu, dll)
+├── public/               # Asset statis (Logo, Gambar, Favicon)
+├── styles/               # Global CSS & Tailwind configuration
+└── tailwind.config.ts    # Custom design system & tokens
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Konfigurasi WhatsApp
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Untuk mengubah nomor WhatsApp tujuan pemesanan, buka file berikut:
+- `components/ui/WhatsAppFloating.tsx`
+- `sections/Menu.tsx`
+- `sections/CTA.tsx`
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Ubah atribut `href` ke format: `https://wa.me/628XXXXXXXXXX`
 
-## Learn More
+## 🎨 Kustomisasi Tema
 
-To learn more about Next.js, take a look at the following resources:
+Sistem desain diatur melalui `tailwind.config.ts`. Anda dapat dengan mudah mengubah:
+- **Warna Aksen**: Cari `coffee-accent` untuk mengubah warna emas/latte.
+- **Warna Utama**: Cari `dark-brown` untuk mengubah tone warna gelap cafe.
+- **Typography**: Menggunakan font Google 'Poppins' untuk kesan modern.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dibuat dengan ❤️ oleh [Antigravity AI] & [USER]. 
+☕ *Elevating the Coffee Experience through Code.*
