@@ -19,7 +19,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://urbancoffee.com"),
+  metadataBase: new URL("https://urban-demo-one.vercel.app"),
   title: "Urban Coffee Cafe | Tempat Ngopi Nyaman & Kopi Premium di Jakarta",
   description: "Urban Coffee adalah cafe modern dengan pilihan kopi premium. Tempat nyaman untuk kerja, meeting, dan nongkrong di Jakarta. Lihat menu & lokasi kami.",
   keywords: [
@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Urban Coffee Cafe - Tempat Ngopi Nyaman di Jakarta",
     description: "Nikmati kopi premium dengan suasana cafe modern yang nyaman untuk kerja dan bersantai.",
-    url: "https://urbancoffee.com",
+    url: "https://urban-demo-one.vercel.app",
     siteName: "Urban Coffee",
     images: [
       {
@@ -76,8 +76,8 @@ export default function RootLayout({
     "@type": "CafeOrCoffeeShop",
     "name": "Urban Coffee",
     "image": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb",
-    "@id": "https://urbancoffee.com",
-    "url": "https://urbancoffee.com",
+    "@id": "https://urban-demo-one.vercel.app",
+    "url": "https://urban-demo-one.vercel.app",
     "telephone": "+6281234567890",
     "priceRange": "$$",
     "address": {
@@ -108,7 +108,7 @@ export default function RootLayout({
       }
     ],
     "servesCuisine": ["Coffee", "Bakery"],
-    "menu": "https://urbancoffee.com/#menu",
+    "menu": "https://urban-demo-one.vercel.app/#menu",
     "acceptsReservations": "true"
   };
 

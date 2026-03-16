@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/private/',
     },
-    sitemap: 'https://urbancoffee.com/sitemap.xml',
+    sitemap: 'https://urban-demo-one.vercel.app/sitemap.xml',
   };
 }
