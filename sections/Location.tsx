@@ -9,7 +9,7 @@ export const Location = () => {
         <Reveal animation="fade-in">
           <SectionHeading 
             title="Lokasi Urban Coffee" 
-            subtitle="Kunjungi kami langsung untuk pengalaman kopi terbaik."
+            subtitle="Cari tempat ngopi di Senopati? Kunjungi Urban Coffee, pilihan coffee shop aesthetic di Jakarta Selatan."
           />
         </Reveal>
         <div className="flex flex-col lg:flex-row gap-8 md:gap-12 items-stretch">
@@ -20,8 +20,8 @@ export const Location = () => {
                 <p className="text-gray-600 text-base md:text-lg leading-relaxed mb-4">
                   Jl. Kopi Nikmat No. 10, Senopati, Kebayoran Baru, Jakarta Selatan, 12190
                 </p>
-                <p className="text-sm text-gray-500 italic">
-                  Urban Coffee adalah cafe yang berlokasi di Jakarta dan sangat mudah dijangkau bagi Anda pecinta kopi premium di pusat kota.
+                <p className="text-sm text-gray-500 italic leading-relaxed">
+                  Urban Coffee adalah <span className="text-coffee-accent font-semibold">coffee shop Senopati</span> yang strategis, menjadikannya <span className="text-coffee-accent font-semibold">cafe Jakarta Selatan</span> favorit. Lokasi kami sangat dekat dengan area SCBD, ideal untuk tempat ngopi santai maupun urusan bisnis.
                 </p>
               </div>
               <div>

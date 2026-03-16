@@ -20,15 +20,16 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://urban-demo-one.vercel.app"),
-  title: "Urban Coffee Cafe | Tempat Ngopi Nyaman & Kopi Premium di Jakarta",
-  description: "Urban Coffee adalah cafe modern dengan pilihan kopi premium. Tempat nyaman untuk kerja, meeting, dan nongkrong di Jakarta. Lihat menu & lokasi kami.",
+  title: "Urban Coffee Senopati | Coffee Shop & Cafe Aesthetic di Jakarta Selatan",
+  description: "Cari coffee shop di Senopati? Urban Coffee adalah cafe aesthetic di Jakarta Selatan yang menawarkan kopi premium. Tempat ngopi favorit di Senopati untuk kerja, meeting, dan santai dekat SCBD.",
   keywords: [
-    "cafe jakarta",
-    "coffee shop jakarta",
-    "tempat ngopi nyaman",
+    "coffee shop Senopati",
+    "cafe Senopati Jakarta",
+    "tempat ngopi Senopati",
+    "coffee shop Jakarta Selatan",
+    "cafe dekat SCBD",
+    "cafe aesthetic Senopati",
     "kopi premium jakarta",
-    "cafe senopati",
-    "tempat nongkrong jakarta",
     "reservasi cafe jakarta"
   ],
   alternates: {
