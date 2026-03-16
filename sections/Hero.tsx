@@ -87,7 +87,7 @@ export const Hero = () => {
                     </div>
                   </div>
                   <div className="pt-4 border-t border-white/10">
-                    <p className="text-white text-sm font-medium italic opacity-60">"The best coffee shop for deep work in the city."</p>
+                    <p className="text-white text-sm font-medium italic opacity-60">&quot;The best coffee shop for deep work in the city.&quot;</p>
                   </div>
                 </div>
               </div>
