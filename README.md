@@ -92,5 +92,3 @@ Untuk menembus peringkat pertama Google, lakukan langkah berikut setelah deploy:
 
 ---
 
-Dibuat dengan ❤️ oleh [Antigravity AI] & [USER]. 
-☕ *Elevating the Coffee Experience through Code.*
