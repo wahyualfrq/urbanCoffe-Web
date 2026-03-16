@@ -61,7 +61,7 @@ export const MenuCard = ({ name, category, price, image, description, badge }: M
         </div>
         
         <p className="text-gray-500 text-sm leading-relaxed line-clamp-2 italic">
-          "{description}"
+          &quot;{description}&quot;
         </p>
       </div>
     </motion.div>
