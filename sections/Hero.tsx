@@ -39,6 +39,7 @@ export const Hero = () => {
 
             <Reveal animation="fade-in-up" delay={200}>
               <p className="text-xl sm:text-2xl font-medium mb-10 text-white/90 font-poppins leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                <span className="sr-only">Coffee shop terbaik & tempat ngopi terdekat di Jakarta.</span>
                 Tempat ngopi nyaman untuk <span className="text-coffee-accent font-bold">kerja</span>, <span className="text-coffee-accent font-bold">meeting</span>, dan bersantai.
               </p>
             </Reveal>

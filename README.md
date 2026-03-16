@@ -72,6 +72,24 @@ Sistem desain diatur melalui `tailwind.config.ts`. Anda dapat dengan mudah mengu
 - **Warna Utama**: Cari `dark-brown` untuk mengubah tone warna gelap cafe.
 - **Typography**: Menggunakan font Google 'Poppins' untuk kesan modern.
 
+## 🚀 Deployment ke Vercel
+
+Proyek ini telah dioptimalkan untuk performa tinggi di [Vercel](https://vercel.com/).
+
+1. **Hubungkan GitHub**: Hubungkan repository GitHub Anda ke Dashboard Vercel.
+2. **Auto-Detection**: Vercel akan otomatis mengenali proyek ini sebagai Next.js.
+3. **Environment Variables**: Jika menggunakan Analytics atau Google Maps API Key di masa depan, tambahkan di tab Settings.
+4. **Deploy**: Klik tombol Deploy dan website Anda akan online dalam hitungan detik.
+
+### 📈 Strategi SEO Ranking #1
+Untuk menembus peringkat pertama Google, lakukan langkah berikut setelah deploy:
+
+1. **Google Search Console**: Daftarkan domain Anda dan kirimkan sitemap (`https://domain-anda.com/sitemap.xml`).
+2. **Google Business Profile**: Daftarkan lokasi cafe Anda di Google Maps untuk mendukung SEO Lokal (Kata kunci: "Cafe terdekat").
+3. **Domain Custom**: Gunakan domain `.com`, `.id`, atau `.coffee` yang relevan dengan nama brand.
+4. **Update Konten**: Google menyukai website yang aktif. Pastikan sitemap diperbarui jika ada menu baru.
+5. **Backlinks**: Bagikan link website Anda di media sosial (Instagram, TikTok) untuk meningkatkan otoritas domain.
+
 ---
 
 Dibuat dengan ❤️ oleh [Antigravity AI] & [USER]. 

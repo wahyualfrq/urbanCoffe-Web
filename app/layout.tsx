@@ -116,6 +116,11 @@ export default function RootLayout({
     <html lang="id">
       <head />
       <body className={`${inter.variable} ${poppins.variable} font-inter antialiased bg-white`}>
+        {/* Schema.org for Local SEO */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
         <Navbar />
         <main>{children}</main>
         <Footer />
